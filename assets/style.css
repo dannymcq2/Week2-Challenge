@@ -174,3 +174,9 @@ margin: 0;
         font-size: 12px;
     }
 }
+@media only screen and (max-width: 414px {
+    #first-image {
+        width: 100%;
+        height: auto;
+    }
+}
