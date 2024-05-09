@@ -82,8 +82,8 @@ body, h1, h2, h3, p, ul, li {
 }
 
 #first-image img {
-    max-width: 200%;
-    max-height: 400px;
+    max-width: 1500%;
+    max-height: 200px;
     height: auto;
 }
 
