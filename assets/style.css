@@ -5,7 +5,7 @@ body, h1, h2, h3, p, ul, li {
 .icon {
      max-width: 10%;
     max-height: 10px;
-    height: auto;
+    height: auto; }
 .header {
     display: flex;
     justify-content: space-between;
