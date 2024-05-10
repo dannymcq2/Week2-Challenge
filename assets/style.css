@@ -3,7 +3,7 @@ body, h1, h2, h3, p, ul, li {
     padding: 0;
 }
 .icon {
-    width : 50px;
+    width : 5px;
     height : auto;
 .header {
     display: flex;
