@@ -187,43 +187,7 @@ margin: 0;
         height: auto;
     }
 }
-@media only screen and (max-width: 428px) {
-    .nav-links {
-              display: flex;
-        justify-content: flex-end; 
-        align-items: center;
-        width: 100%; 
-    }
-    .nav-links ul {
-         display: flex;
-        list-style: none;
-        padding: 0;
-        margin: 0;
-    }
-    .nav-links ul li {
-        margin-left: 20px;
-    }
-       }
-    .nav-links ul li:first-child {
-        margin-left: 0;
-    }
-    .nav-links ul li a {
-        text-decoration: none;
-        padding: 3px 6px;
-        border: 2px solid rgb(0, 0, 0);
-        border-radius: 5px;
-        color: rgb(111, 0, 255);
-        background-color: rgb(0, 255, 255);
-        transition: all 0.2s ease;
-        font-size: larger;
-        font-weight: bold;
-    }
-    .nav-links ul li a:hover {
-        background-color: #ff0f0f;
-        color: #ffffff;
-    }
 
-}
 @media only screen and (max-width: 428px) {
     .image-text-box {
         font-size: 8px; 
