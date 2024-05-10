@@ -2,8 +2,6 @@ body, h1, h2, h3, p, ul, li {
     margin: 0;
     padding: 0;
 }
-
-}
 .header {
     display: flex;
     justify-content: space-between;
@@ -48,10 +46,6 @@ body, h1, h2, h3, p, ul, li {
 }
 
 .nav-links ul li a:hover {
-    background-color: #ff0f0f;
-    color: #ffffff;
-}
-.nav-links ul li a:target {
     background-color: #ff0f0f;
     color: #ffffff;
 }
@@ -181,26 +175,24 @@ margin: 0;
     .image-text-box { 
         padding: 5px 8px;
         font-size: 12px;
+    }
 }
 @media only screen and (max-width: 414px {
     #first-image
     #second-image,
     #third-image,
     #fourth-image
-    #user-icon {
-       .image-text-box { 
+    #user-icon{
         width: 100%;
         height: auto;
     }
-@media screen and (max-width: 414px) {
-    .nav-links ul {
-        flex-direction: column;  
-        align-items: center; 
-    }
-    .nav-links ul li {
-        margin: 10px 0;
-    }
-    .nav-links ul li a {
-        padding: 10px 20px;
-        font-size: 14px
+}
+@media only screen and (max-width: 414px) {
+    #first-image,
+    #second-image,
+    #third-image,
+    #fourth-image 
+    #user-icon{
+        width: 100%;
+        height: auto;
     }
