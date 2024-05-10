@@ -190,9 +190,11 @@ margin: 0;
     #fourth-image
     #user-icon {
        .image-text-box { 
-        padding: 5px 8px;
-        font-size: 12px;
         width: 100%;
         height: auto;
     }
-
+@media only screen and (max-width: 414px) {
+    .nav-links ul li a {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
