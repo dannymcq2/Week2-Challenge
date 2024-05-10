@@ -155,7 +155,7 @@ h2 {
 }
 #user-icon { 
      max-width: 100%;
-    max-height: 140px;
+    max-height: 120px;
     height: auto;
 }
 
@@ -182,7 +182,7 @@ margin: 0;
     #second-image,
     #third-image,
     #fourth-image
-    #usericon{
+    #user-icon{
         width: 100%;
         height: auto;
     }
@@ -191,7 +191,8 @@ margin: 0;
     #first-image,
     #second-image,
     #third-image,
-    #fourth-image {
+    #fourth-image 
+    #user-icon{
         width: 100%;
         height: auto;
     }
