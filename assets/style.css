@@ -179,3 +179,12 @@ margin: 0;
         height: auto;
     }
 }
+@media only screen and (max-width: 414px) {
+    #first-image,
+    #second-image,
+    #third-image,
+    #fourth-image {
+        width: 100%;
+        height: auto;
+    }
+}
