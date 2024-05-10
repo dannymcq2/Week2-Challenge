@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+}
 body, h1, h2, h3, p, ul, li {
     margin: 0;
     padding: 0;
@@ -47,11 +50,27 @@ html {
 .nav-links ul li:first-child {
     margin-left: 0;
 }
-
+.nav-links ul li a:active,
+.nav-links ul li a:focus,
+.nav-links ul li a:hover {
 .nav-links ul li a:hover {
     background-color: #ff0f0f;
     color: #ffffff;
 }
+    nav-links ul li a {   
+        transition: background-color 0.3s, 
+        color 0.3s;
+}
+    .nav-links ul li 
+    a:hover {  
+        background-color: #ff0f0f;
+    color: #ffffff;
+        border-color: #ff0f0f;
+}
+    .nav-links ul li a {
+    transition: background-color 0.3s, 
+        color 0.3s, border-color 0.3s;
+    }
 .nav-links ul li a:target {
     background-color: #ff0f0f;
     color: #ffffff;
