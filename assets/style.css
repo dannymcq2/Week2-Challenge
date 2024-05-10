@@ -174,6 +174,12 @@ p {
     color: aliceblue;
 }
 
+
+.nav-links ul li a:hover {
+    background-color: #ff0f0f;
+    color: #ffffff;
+}
+
 @media screen and (max-width: 768px) {
     .image-text-box { 
         padding: 5px 8px;
